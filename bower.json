@@ -1,0 +1,24 @@
+{
+  "name": "imooc",
+  "description": "Imooc Moive Demo. nodejs + mongodb + jade + express",
+  "main": "app.js",
+  "authors": [
+    "zhangliting <1109156011@qq.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "imooc"
+  ],
+  "homepage": "https://github.com/zhangliting/Movie",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

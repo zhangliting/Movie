@@ -1,8 +1,18 @@
 {
-  "name": "Movie",
-  "version": "1.0.0",
-  "description": "Imooc Moive Demo. nodejs + mongodb + jade + express",
+  "name": "imooc",
+  "version": "0.0.1",
+  "description": "imooc movie",
   "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "moment": "^2.17.1",
+    "mongoose": "^4.7.6",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,19 +20,14 @@
     "type": "git",
     "url": "git+https://github.com/zhangliting/Movie.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "imooc",
+    "movie"
+  ],
+  "author": "zhangliting",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zhangliting/Movie/issues"
   },
-  "homepage": "https://github.com/zhangliting/Movie#readme",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "bootstrap": "^3.3.7",
-    "express": "^4.14.0",
-    "jade": "^1.11.0",
-    "moment": "^2.17.1",
-    "mongoose": "^4.7.6"
-  }
+  "homepage": "https://github.com/zhangliting/Movie#readme"
 }
